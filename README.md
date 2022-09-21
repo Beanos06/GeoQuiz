@@ -1,5 +1,7 @@
 # 🌐GeoQuiz
-Geography quiz website currenty made with Flask. This project may get transfered to Django's Framework in the future
+Geography quiz website currenty made with Flask. This project may get transfered to Django's Framework in the future.
+
+*Note: This is just a prototype 
 
 ## ✅To do/Ideas
 - Better UI
