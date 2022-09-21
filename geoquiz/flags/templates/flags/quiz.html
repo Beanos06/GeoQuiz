@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flag Quiz</title>
-</head>
-<body>
-    {{country_name}}
-    <img src="{{flag_url}}" alt="">
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/quiz/styles.css') }}">
+{% endblock head %}
+{% block title %} Flags Quiz{% endblock title %}>
+
+{% block content %}
+    <div class="body">
+        <h3 class="country-name">{{country_name}}</h3>
+        <img class="country-flag" src="{{flag_url}}" alt="">
+    </div>
+{% endblock content %}

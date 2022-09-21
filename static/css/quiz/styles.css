@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+.country-name {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.country-flag {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.body {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 100px 1fr;
+    justify-items: center;
+}
